@@ -165,20 +165,16 @@ a {
 
 @media screen and (max-width: 768px) {
 
-  #about{
-background-image: url(background2.png);
-  }
-
   #pic{
     background-position: center;
-    height: 92vh;
+    height: 75vh;
 
   }
 
   .desc{
     text-align: center;
     height: 15vh;
-    padding-top: 5%;
+    padding-top: 7%!important;
   }
 
 
@@ -290,14 +286,37 @@ background-image: url(background2.png);
       }
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px)  {
   p{font-size: 1.8vh;}
 
   p {
     font-size: 1.8vw;
   }
 
+}
+
+@media screen and (max-height: 540px){
+  p{font-size: 1.8vh;}
+
+  #pic{
+    background-position: center;
+    height: 65vh;
+
+  }
+}
+
+
+
+@media screen and (max-height: 420px){
+
+
+  h2 {font-size: 1.4vw;}
+
+  #pic{
+    background-position: center;
+    height: 50vh;
+
+  }
 }
 
 
